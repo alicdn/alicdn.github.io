@@ -52,7 +52,7 @@ a:hover{text-decoration:underline}
 .mininav a{margin-right:15px;cursor:pointer;color:#FFF;display:inline-block;line-height:30px;text-align:center;text-decoration:none;padding:0 15px}
 .mininav a:hover{background-color:#289b05}
 .mininav a.selected{font-weight:700;color:#fff}
-.p-wrapper{width:960px;margin:0 auto;text-align:center;padding-bottom:55px}
+.p-wrapper{width:980px;margin:0 auto;text-align:center;padding-bottom:55px}
 .bobologo{position:relative}
 .bobologo img{width:35%;-moz-min-width:150px;-ms-min-width:150px;-o-min-width:150px;-webkit-min-width:150px;min-width:150px}
 .searchbox .search{background:#fff;height:42px;line-height:42px;border:1px solid #00a9f6;display:block;overflow:hidden;border-radius:0px;}
