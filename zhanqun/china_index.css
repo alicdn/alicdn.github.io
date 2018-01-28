@@ -1,0 +1,804 @@
+@charset "utf-8";
+/*外框*/
+.part{width:978px;border:1px solid #e9e9e9;}
+.partleft{width:339px;float:left;}
+.partcen{width:394px; border-left:1px solid #e9e9e9;border-right:1px solid #e9e9e9;float:left;}
+.partrig{width:243px;float:right;}
+.partrig_xz{width:278px;float:right;}
+.partgx{background: url("http://file.chexun.com/images_index_new/gxall.gif") repeat-y scroll 699px 0 transparent;}
+.part02{width:980px;border-bottom:1px solid #e9e9e9; background:url(http://image.auto.china.cn/epoch/line_bg.gif) repeat-y left;}
+.partleft2{width:339px;float:left;}
+.partcen2{width:396px;float:left;}
+.partrig2{width:243px;float:right;}
+.partleft3{width:339px;float:left;padding-top:10px;}
+.partcen3{width:396px;float:left;padding-top:10px;}
+.partrig3{width:243px;float:right;}
+.partleft4{width:700px;float:left;}
+.partlig{width:735px;float:left;}
+.partlig .partb{border-bottom:2px solid #3c4f84; float:left;}
+.partlig .partb .title{padding-top:5px; line-height:24px; background:url("http://image.auto.china.cn/epoch/icon_bg.gif") repeat-x scroll left -381px transparent}
+/*标题链接颜色*/
+.partleft h3 a,.partcen h3 a,.partrig h3 a,.partb h3 a,.partrig3 .title h3 a{color:#0D519C;}
+/*公用样式*/
+.title_ban{background:url(http://image.auto.china.cn/epoch/icon_bg.gif) repeat-x left -457px #fff;height:40px;line-height:30px;padding:3px 12px 12px 0;color:#0d519c;}
+.title_ban h2 a{display:block; width:130px; height:40px; text-indent:-9999px;}
+.title_ban h2{font-size:12px;font-weight:normal; width:200px; height:40px; background:url(http://image.auto.china.cn/epoch/title_bg.gif) no-repeat left 0px;}
+.title_ban h2.gcsj{background-position:left -90px;}
+.title_ban h2.yc{background-position:left -135px;}
+.title_ban h2.dp{background-position:left -45px;}
+.title_ban h2.qgcs{background-position:left -180px;}
+.title_ban a{color:#0d519c;}
+.title_ban a:hover{color:#0d519c; text-decoration:underline;}
+.title_ban span,.title_ban2 span{float:right;}
+.title_ban span a:hover,.title_ban span a:hover{color:#0d519c;}
+.title_ban2{background:#F9F9F9;color:#000; border-bottom:1px solid #E9E9E9; padding:0 12px;}
+.title_ban2 a{color:#0d519c;}
+.title_ban2 a:hover{color:#000;}
+.title_ban2 h2{font-weight:bold;color:#333; font-size:14px;}
+.title_ban2 h2 a{color:#333;}
+.btn_gy{border:1px solid #cecece;height:20px;line-height:20px;background:#e7e8ed; display:inline-block;padding:0 15px; cursor:pointer;color:#333;}
+.dot li{line-height:22px;color:#777; background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left 10px; padding-left:8px; overflow:hidden;height:22px;}
+.dot li a{color:#777;}
+.dot li a:hover{color:#0b5fb7;}
+.dot li span{font-weight:normal;float:right;padding-left:5px;}
+.dot li b{font-size:12px;font-weight:normal;}
+.dot li.topzd b a{font-weight:normal; font-size:12px;}
+.dot li.topzd a{font-weight:bold; font-size:14px;}
+.dot li.topzd a:hover{}
+.dot2 li{line-height:22px;color:#777; background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left -20px; padding-left:8px; overflow:hidden;}
+.dot2 li a{color:#0d519c;}
+.dot2 li a:hover{color:#0b5fb7;}
+.dot2 li span{font-weight:normal;float:right;padding-left:5px;}
+.dot3 li{line-height:22px;overflow:hidden;height:22px;}
+.dot3 li span{font-weight:normal;float:right;padding-left:5px;}
+.dot3 li a{color:#0d519c;}
+.dot3 li a:hover{color:#0b5fb7;}
+.dot4 li{line-height:26px;overflow:hidden;height:26px;}
+.dot4 li span{font-weight:normal;float:right;padding-left:5px;}
+.dot5 li{background: url("http://image.auto.china.cn/epoch/dot.gif") no-repeat scroll left -20px transparent;}
+.dotts li{background: url(http://image.auto.china.cn/epoch/x_line.gif) repeat-x scroll left bottom transparent; font-size: 12px; height: 32px; line-height: 32px; overflow: hidden;}
+.dotts li span{background: url(http://image.auto.china.cn/epoch/c_icon_01.gif) no-repeat scroll -122px 0 transparent; color: #4B555E; display: block; float: left; font-family: Arial,Helvetica,sans-serif; font-size: 10px; height: 13px; line-height: 13px; margin-right: 12px; margin-top: 9px; text-align: center; width: 14px;}
+.dotts li.top span{background-position: -86px 0; color: #FFFFFF;}
+.dotts b{color: #777777; float: right; font-weight: normal; padding-left: 5px;}
+.dotts b i{color: #424242; font-style: normal;}
+.dotts b i a{color: #475198;}
+.dotts b i a:hover{color: #0B5FB7;}
+.box .title{height:28px;border-bottom:1px solid #ddd; background:url(http://image.auto.china.cn/epoch/icon_bg.gif) repeat-x left -386px; border-top:1px solid #fff;line-height:28px;padding:0 12px;color:#0d519c;}
+.box .title h3{font-size:14px;font-weight:bold;}
+.box .title a:hover{color:#0d519c; text-decoration:underline;}
+.box .title span{float:right;}
+.box .title span a{color:#4a4a4a;}
+.box .title span a:hover{color:#0b5fb7;}
+.box .title span.more a{display:block; width:16px; height:26px;background:url(http://image.auto.china.cn/epoch/icon_003.gif) no-repeat left -110px; text-indent:-9999px;}
+.box .content{}
+.partrig .box .title{background:#f9f9f9; border-top:1px solid #ddd;}
+.partleft3 .title,.partcen3 .title{background: none repeat scroll 0 0 transparent !important; border-bottom: 2px solid #D9D9D9 !important;}
+.partrig3 .title{border:1px solid #e9e9e9 !important; border-left:none !important;}
+.tw_in1{width:111px; padding-left:5px;float:left;height:95px; overflow:hidden;}
+.tw_in1 p{width:90px; height:60px;}
+.tw_in1 .text{text-align:left;height:34px; overflow:hidden;line-height:24px;}
+.tw_in1_A{width:90px; height:100px; margin-bottom:15px; margin-right:15px;}
+.tw_in1_A .text{line-height: 18px;overflow: hidden;text-align: left; padding-top:5px;}
+.tw_in2{padding-bottom:10px;overflow:hidden;}
+.tw_in2 p.pic{width:90px; float:left; padding-right:10px;}
+.tw_in2 .text{line-height:20px;}
+.tw_in2 .text b{display:block; padding-bottom:5px;font-size:12px;}
+.tw_in2 .text a{color:#0d519c;}
+.tw_in3{height:120px; overflow:hidden;background:url(http://image.auto.china.cn/epoch/x_line.gif) repeat-x bottom; margin-bottom:10px;}
+.tw_in3 p.pic{width:90px; height:110px;float:left;padding-right:10px;}
+.tw_in3 .text{line-height:20px;}
+.tw_in3 .text b{display:block; padding-bottom:5px; font-size:12px;}
+.tw_in3 .text a{color:#0d519c;}
+.tw_in4{float: left; height: 135px; overflow: hidden; padding-right: 8px; width: 182px;}
+.tw_in4 p.pic{width:120px; float:left;padding-right:10px;}
+.tw_in4 .text{line-height:20px;}
+.tw_in4 .text b{display:block; padding-bottom:0px; font-size:14px;}
+.tw_in4 .text b a{color:#0d519c;}
+/*焦点图1*/
+.fouce1{width:370px;}
+.fouce1 p{background:#e7e8ed;padding-bottom:1px;height:28px;}
+.fouce1 p a{color:#000;line-height:28px;}
+.fouce1 p a:hover{color:#0b5fb7;}
+.fouce1 .fouce{width:370px;}
+.fouce1 .other{text-align:center;font-size:12px;height:28px; overflow:hidden;line-height:28px;padding-top:5px;color:#0b5fb7;}
+.fouce1 .other a{color:#0b5fb7;}
+/*焦点图2*/
+.fouce2{width:290px;padding:10px; margin:0 auto;}
+/*头条文字链*/
+.toplink{padding-bottom:10px;}
+.toplink h1{padding-top:5px; text-align:center;font-size:14px;line-height: 24px;}
+.toplink h1 a{color:#000000;}
+.toplink h1 a:hover{color:#c00;}
+.toplink .nrpart{color:#4A4A4A; text-align:center;line-height: 20px; height:20px;overflow: hidden;padding-bottom:5px;}
+.toplink .nrpart a{color:#4A4A4A;}
+.toplink .nrpart a:hover{color:#0b5fb7;}
+.toplink p{color:#4A4A4A; padding:0 10px 8px; margin-bottom:5px; text-indent:24px; background:url("http://image.auto.china.cn/epoch/x_line.gif") repeat-x scroll center bottom transparent;}
+.toplink p a{color:#0D519C;}
+.toplink .dot li{line-height:28px;height:28px;color:#000;}
+.toplink .dot li a{color:#000;}
+.toplink .dot li a:hover{color:#0b5fb7;}
+.ggwts{padding:9px;margin-bottom:0;}
+.ggwts2{padding-left:9px;margin-bottom:10px;}
+.ggwts3{padding:10px; padding-right:0px;border-top:1px solid #CBCBCB}
+/*新闻条*/
+#demo{float: left; overflow: hidden; width: 278px;height:26px;}
+#indemo{float: left; width: 5000%;}
+#demo1{float: left;}
+#demo2{float: left;}
+#demo1 li,#demo2 li{float:left; padding-right:15px;padding-left:7px;background: url("http://file.chexun.com/images_index_new/c_icon_00.gif") no-repeat 0 11px;color:#0b5fb7;}
+#demo1 li a,#demo2 li a{color:#0b5fb7;}
+.newst{border:1px solid #e7e8ed;width:278px;height:26px;line-height:26px;padding:0 10px;margin-top:10px;}
+.dw{position:relative;width:300px;}
+.dw a{display: block;height:22px;overflow: hidden;width: 15px;top:-19px;position: absolute;}
+.dw a.pgup{background: url("http://file.chexun.com/images_index_new/icon_bg.gif") no-repeat scroll 0 -193px;left:5px;}
+.dw a.pgup:hover{background-position:0px -98px;}
+.dw a.pgdown{background: url("http://file.chexun.com/images_index_new/icon_bg.gif") no-repeat scroll -0px -222px;right:-2px;}
+.dw a.pgdown:hover{background-position:0px -127px;}
+/*搜索经销商*/
+.search_jxs{width:278px;border-top:1px solid #e9e9e9;padding-top:10px;}
+.search_jxs table th{font-weight:normal;text-align:right;width:60px;color:#000;padding:3px 0;}
+.search_jxs table td{padding:3px 0;}
+.search_jxs table td select{color:#bebfc1;width:200px;}
+.search_jxs table td select.lk{width:94px;}
+/*精彩栏目*/
+.jclm .title{border-top:1px solid #dcdcdc;}
+.jclm .content ul{margin:10px;height:156px;overflow:hidden;}
+.jclm .content ul li{height:26px;line-height:26px; padding-left:0px; background:url(http://file.chexun.com/images_index_new/icon_lm.gif) no-repeat 0 0;}
+.jclm .content ul li.zjpk{background-position: left -35px;}
+.jclm .content ul li.ccf{background-position: left -73px;}
+.jclm .content ul li.wppk{background-position: left -113px;}
+.jclm .content ul li.ljlpc{background-position: left -155px;}
+.jclm .content ul li i{display:block; width:35px; height:26px; float:left;overflow:hidden;}
+.jclm .content ul li i a{display:block; width:35px;height:26px;}
+/*商家促销*/
+.sjcx .content{padding:15px 10px;}
+.sjcx .content ul{padding:0 7px;}
+/*新闻*/
+.news .title{border:solid #c0c1c6;border-width:0 1px;border-top:1px solid #dcdcdc;}
+.news .content{width:358px;border:solid #ececec;border-width:0 1px;padding:15px;}
+.news .content ul.dot{padding-bottom:3px;}
+/*社区活的*/
+.sqhd .title{border-top:1px solid #dcdcdc;}
+.sqhd .content{padding:20px 0 10px 8px;width:270px;}
+/*精彩视频*/
+.jcsp .content{padding:18px 0 0 14px;width:264px;}
+/*行业新闻*/
+.ht15{height:15px; overflow:hidden;}
+.hyxw{padding:0 10px;}
+.hyxw .content{padding:10px 0px;}
+.hyxw .title{border-bottom:2px solid #d9d9d9; background:none;}
+.hyxw .title span a{color:#666;}
+.hyxw h2{font-size:14px;font-weight:bold;text-align:center;padding-bottom:5px;}
+.hyxw .dot2 li{background:none; padding-left:0px; height:24px; line-height:24px;}
+.hyxw .content h2{text-align:center;}
+.hyxw .content h2 a{color:#0d519c;}
+.hyxw .dot2 li a{color:#0d519c;}
+/*国内新车*/
+.gncar{padding:0 10px;}
+.gncar .title{border-bottom:2px solid #d9d9d9; background:none;}
+.gncar .content{padding:10px 0;border:solid #ececec;border-width:0;height:144px;}
+.gncar .dot li{height:24px; line-height:24px;}
+.gncar .dot li a{color:#0d519c; font-size:14px;}
+.gncar .dot li b a{font-size:12px;}
+.gncar .title span a{color:#666;}
+.gncar .tw_in4 .text{height:24px; line-height:24px; text-align:center;}
+/*不同高度*/
+.gncar .btgd{height:150px; overflow:hidden;}
+/*不同间距*/
+.btjj{padding:0px 0 10px 0px;}
+.btjj2{padding-left:0px;}
+.btjj2 .tw_in4{padding-right:0px; padding-left:6px;}
+.btjj .tw_in3{float: left; height: 125px; overflow: hidden; padding-right: 17px; width: 142px;background:none;margin-bottom:0px;}
+.btjj .tw_in3 a{color:#666;}
+/*热门新闻排行榜*/
+.xwph .content{padding:5px 10px 10px;}
+/*最新汽车报价*/
+.newbj{padding:0 10px;}
+.newbj .content{padding-left:10px;}
+.newbj .content table th{font-weight:normal;color:#777;text-align:center; padding-top:5px;}
+.newbj .content table th.first{width:145px; text-align:left;}
+.newbj .content table th.tdrig{width:55px; text-align:left;}
+.newbj .content table td{height:28px;line-height:28px;color:#0d519c;}
+.newbj .content table td a{color:#0d519c;}
+/*投诉平台*/
+.tspt .title span a.wyts{display:block;border:1px solid #cfcfd1;background:#f6f6f6;width:78px;height:20px;line-height:20px;text-align:center;margin-top:3px;}
+.tspt .content{padding:11px 15px;}
+/*近期召回*/
+.jqzh .content{padding:10px;}
+.jqzh .content .pic{width:80px;float:left; padding:5px 0;}
+.jqzh .content .pic img{border:1px solid #e7e8ed;}
+.jqzh .content .dot3{float:right;padding-left:10px;width:130px;}
+.jqzh .content .dot3 a{color:#4A4A4A;}
+.jqzh .content .dot4 li{height:22px;line-height:22px;}
+/*优惠券*/
+.yhq{padding:0 10px;}
+.yhq .content{padding:10px;}
+.yhq .content .tw_yhq{height:50px;}
+.yhq .content .tw_yhq .pic{width:60px;float:left;padding-top:4px;}
+.yhq .content .tw_yhq .text{float:left;width:230px;color:#777;line-height:19px;}
+.yhq .content .tw_yhq .text b{display:block;color:#fc9900;font-weight:normal;height:22px; overflow:hidden;}
+.yhq .content .tw_yhq .text b a{color:#fc9900;}
+.yhq .content .tw_yhq .text b a:hover{color:#0b5fb7;}
+/*会员点评*/
+.hydp{padding:0 10px;}
+.hydp .content{padding:10px;}
+.hydp .content .tw_hydp{height:55px;padding-bottom:9px;border-bottom:1px solid #e9e9e9;margin-bottom:10px;}
+.hydp .content .tw_hydp .pic{width:40px;float:left;padding-top:3px;}
+.hydp .content .tw_hydp .pic img{padding:1px;border:1px solid #efefef;}
+.hydp .content .tw_hydp .text{float:left;width:305px;color:#777;line-height:19px;}
+.hydp .content .tw_hydp .text b{display:block;color:#fc9900;font-weight:normal;overflow:hidden;width:275px;height:19px;line-height:19px;}
+.hydp .content .tw_hydp .text b a{color:#fc9900;}
+.hydp .content .tw_hydp .text b a:hover{color:#0b5fb7;}
+.hydp .content .tw_hydp .text span{float:right;padding-top:18px;}
+.hydp .content .tw_hydp .text span a{color:#0b5fb7;}
+.hydp .content .tw_hydp .text i{font-style:normal;color:#777;display:block;}
+.hydp .content .tw_hydp .text ul{overflow:hidden;width:275px;height:19px;line-height:19px;white-space:nowrap;text-overflow:ellipsis;}
+/*人气商户*/
+.rqsh .content{padding:20px 25px;}
+.rqsh p.pic{text-align:center;padding-bottom:10px;}
+.rqsh p.pic img{padding:2px;border:1px solid #ccc;}
+.rqsh p{color:#777;}
+.rqsh p a{color:#004d98;}
+/*论坛热帖*/
+.ltrt .title{border:solid #c0c1c6;border-width:0 1px;}
+.ltrt .content{padding:10px 15px;width: 358px;border:solid #ececec;border-width:0 1px;}
+/*友情链接*/
+.yqlj{line-height: 24px;padding: 11px 15px;}
+.yqlj a{display: inline-block;margin: 0 2px;}
+.yqlj span{color: #E4E4E4;padding: 0 6px;}
+/*shijie1227*/
+.cxlogo{width:335px; height:35px; background:url(http://file.chexun.com/images_index_new/cxlogo.jpg) no-repeat 55px 0; position:absolute;right:20px;top:5px;}
+.cxlogo a{display:inline-block;width:35px;height:35px; float:left;margin:0 4px; text-indent:-9999px;}
+.cxlogo a.kds{width:55px;}
+.cxlogo b{display:inline-block;float:left;width:55px;height:35px;line-height:35px;font-weight:normal;color:#999;}
+/*搜索*/
+.search_dh{padding:10px; position:relative;}
+.search_dh select{width:140px; height:20px;}
+.search_dh .btn_gy{padding:0 20px;}
+/*热点车*/
+.hotcar .hotit{height:26px; background:url(http://file.chexun.com/images_index_new/icon_bg1.gif) repeat-x;}
+.hotcar .hotit .jtit{display: block; float: left; height: 26px;font-weight:normal;text-align:center; width: 85px;}
+.hotcar .hotit .tab{display: block; float: left; height: 26px; width: 560px;}
+.hotcar .hotit .tab li{cursor: pointer; float: left;height:25px;border-top:1px solid #fff; font-family: Tahoma,Geneva,sans-serif; text-align: center; width: 80px;}
+.hotcar .hotit .tab li.on{border-left:1px solid #e9e9e9;border-right:1px solid #e9e9e9;border-top:1px solid #e9e9e9;width:78px;background:#fff;}
+.hotcar .hotit .cxfs{float: right; width: 300px;background:url(http://file.chexun.com/images_index_new/icon_bg.gif) no-repeat left -43px;padding-left:10px;}
+.hotcar .hotit .cxfs a{padding: 0 5px;}
+.hotcon{line-height:34px;height:78px;width:978px;float:left; border-bottom:1px solid #e9e9e9;}
+.hotcon .more{float:left; padding-top:39px; width:40px;}
+.hotcon .jt_tab{width:978px;height:68px; padding:5px 0; clear:both;float:left;}
+.hotcon .jt_tab li{float:left; width:122px; text-align:center;}
+.hotcon .jt_tab li.on{color:#0b5fb7;}
+.hotcon .jt_tab li.on a{color:#0b5fb7;}
+.jt_con{width:293px; float:left; height:78px; border-bottom:1px solid #e9e9e9;}
+.jt_con .car_pic{float:left; width:190px;height:68px; padding-top:10px; text-align:center;}
+.jt_con .pz{float:right; width:90px; height:73px; padding-top:5px;}
+.jt_con .pz li{background:url(http://file.chexun.com/images_index_new/icon_02.gif) no-repeat left -379px; line-height:22px; padding-left:20px;}
+.jt_con .pz li.tpxs{background-position:left -405px}
+.jt_con .pz li.cxxq{background-position:left -433px}
+/*团购*/
+.hottg{width:615px; float:left; height:68px;}
+.hottg .first,.hotdp .first{background:url(http://file.chexun.com/images_index_new/icon_bg.gif) no-repeat right -112px; font-family:"微软雅黑"; font-size:14px; display:block; text-align:right; padding-right:12px; float:left; line-height:38px; margin-top:15px;font-weight:bold;}
+.hottg .first{width:47px;}
+.hotdp .first{width:69px;}
+.hottg .first a,.hotdp .first a{color:#134d7b;}
+.hottg .tg{height:55px;width:550px;float:right;margin-top:8px;border-right:1px solid #eaeaea;padding-left:5px;}
+.hottg .tg li{width:75px;float:left;}
+.hottg .tg li img{float:left;}
+.hottg .tg li.over{width:175px;cursor: pointer;}
+.hottg .tg li.over div{color:#0b5fb7;float:left;line-height:14px;padding:7px 0 0 15px; cursor:pointer;}
+/*用车点评*/
+.hotdp{width:360px; float:right; height:68px;}
+.ycdp{width:270px; float:right;}
+.dp_tab{height:21px;}
+.dp_tab li{width:53px; height:20px; text-align:center; line-height:20px; border-left:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9; float:left;}
+.dp_tab li.on{background:#e7e8ed;}
+.dp_con .dp_info{width:180px; float:left; color:#979797; line-height:18px; padding-top:5px;}
+.dp_con .dp_info h5{font-weight:normal; height:20px; clear:both;width:180px; overflow:hidden;}
+.dp_con .dp_info span,.dp_con .dp_info b{float:left;}
+.dp_con .dp_info span{padding-right:0px;}
+.dp_con .dp_info b{display:block; width:11px; height:20px; background:url(http://file.chexun.com/images_index_new/icon.gif) no-repeat left 4px; overflow:hidden;}
+.dp_con .dp_info p a{color:#0b5fb7;}
+.dp_con .tj{width:90px; float:right; text-align:center; padding-top:12px;}
+.dp_con .tj a{display:block; width:80px; margin:0 auto; height:22px; line-height:22px; text-align:center; background:url(http://file.chexun.com/images_index_new/icon1.gif) no-repeat left -42px}
+/*新车图库*/
+.xctk .tktab{width:453px; float:left;}
+.xctk .tktab li{padding:0 1px 1px 0; cursor:pointer; width:150px; height:100px; float:left; position:relative; overflow:hidden;}
+.xctk .tktab li.on{width:144px; height:94px; overflow:hidden; border:3px solid #1d429d;}
+.xctk .tktab li span,.tkcon span{height:28px; display:block; position:absolute; width:150px; left:0px; bottom:1px; background:#000;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity: 0.5;}
+.xctk .tktab li h4,.tkcon h4{height:28px;color:#fff; position:absolute; line-height:28px; width:150px; left:0px; bottom:1px; z-index:9999; text-align:center; font-weight:normal;}
+.xctk .tktab li h4 a,.xctk .tkcon h4 a{color:#fff; display:block;}
+.tkcon{width:527px; height:302px; overflow:hidden; float:right; position:relative;}
+.tkcon span{width:527px; bottom:0px;_bottom:1px;}
+.tkcon h4{width:527px;}
+/*车讯测试排行榜*/
+.csphb .cstab{height:26px;background:url(http://file.chexun.com/images_index_new/icon_bg1.gif) repeat-x;border-right:1px solid #e9e9e9;}
+.csphb .cstab li{width:59px; height:26px; text-align:center; float:left;border-left:1px solid #e9e9e9;}
+.csphb .cstab #fir{width:60px; border-left:none;}
+.csphb .cstab li.on{background:#fff;}
+.csphb .cscon ul{padding:0 9px;}
+.csphb .cscon li{clear:both; height:52px; overflow:hidden; padding-top:13px; border-bottom:1px solid #ececec;}
+.csphb .cscon .pic,.csphb .cscon .info,.csphb .cscon .num{display:block; float:left;}
+.csphb .cscon .num{font-family:Arial; height:52px; width:10px; text-align:right; font-size:16px; font-style:italic; font-weight:bold; color:#8d8d8d;}
+.csphb .cscon .info{width:130px; padding-left:10px; height:52px; overflow:hidden; line-height:20px;}
+.csphb .cscon .info b{display:block; width:130px; height:20px;overflow:hidden;}
+.csphb .cscon .info b a{color:#000;}
+.csphb .cscon .info b a:hover{color:#0b5fb7;}
+.csphb .cscon .info a{display:block; width:130px; height:20px;overflow:hidden;}
+.csphb .cscon .pic{width:70px;text-align:right; height:52px;}
+.csphb .cscon li.fir{border-bottom:none;}
+/*最新上市/即将上市*/
+.sscx{width:243px; padding-bottom:10px;}
+.sscx .title{position:relative; border:1px solid #e9e9e9; border-left:none; height:28px; background:#F9F9F9;}
+.sscx .cxtab{height:28px; position:absolute; left:0px; top:1px;}
+.sscx .cxtab li{height:28px; font-size:14px; border-right:1px solid #ddd; color:#0d519c;line-height:28px; width:75px; text-align:center; float:left;}
+.sscx .cxtab li.on{background:#fff; font-weight:normal;color:#0d519c; font-weight:bold;}
+.sscx .cxcon{padding-right:10px;}
+.sscx .ss_tit{height:28px; line-height:28px; padding-top:2px;}
+.sscx .ss_tit li{text-align:center; float:left; color:#c0c0c2;}
+.sscx .ss_tit li.date{width:55px;}
+.sscx .ss_tit li.ppai{width:95px; text-align:left; padding-left:8px;}
+.sscx .ss_tit li.price{width:70px;}
+.sscx dl{clear:both;}
+.sscx dl dd h4{clear:both;font-weight:normal;height:28px;line-height:28px;}
+.sscx dl dd h4 strong{font-family: Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;width:55px;text-align:center;height:23px;display:block;float:left;margin-right:10px;}
+.sscx dl dd div.open{padding-left:10px;height:40px;line-height:18px;cursor:pointer;}
+.sscx dl dd div img{float:left;}
+.sscx dl dd div p{float:left;width:163px;color:#777;padding-left:8px;}
+/*鼠标划过的状态*/
+.sscx .content{padding: 0px;}
+.sscx .content span{float:right;}
+.sscx dl.over{clear:both;background:#fff;}
+.sscx dl.over dd div p a,.xctg dl dd div p a{color:#0b5fb7;}
+.sscx dl.over dd h4{color:#777;}
+.sscx dl.over dd h4 a{color:#777;}
+.sscx dl.over dd h4 a:hover{color:#0b5fb7;}
+/*焦点图1*/
+.jdtC{position:relative;font-size:12px;background:#fff;border:5px solid #efefef;overflow:hidden;width:335px;height:342px;}
+.jdtC li{float:left;}
+.jdtC a{color:#16387C;}
+/*jdt_a*/
+.jdt_a{clear:both;width:100%;overflow:hidden;}
+.jdt_a ul{}
+.jdt_a .jdpic, .jdt_a .jdwz{clear:both;width:100%;}
+.jdt_a .jdpic{text-align:center;}
+.jdt_a .jdpic img{width:335px;height:320px;}
+.jdt_a h3{position:absolute;top:290px;z-index:3;width:100%;height:31px;line-height:31px;overflow:hidden;}
+.jdt_a h3 a{padding-left:10px;color:#fff;font-size:14px;}
+.jdt_a .trans_layer{position:absolute;top:290px;z-index:2;width:100%;height:31px;line-height:31px;background:#000;filter:alpha(opacity=30);opacity:0.3;}
+.jdt_a .rela a{padding-right:10px;}
+.jdtC .btnarea{position:absolute;bottom:0;width:100%;height:22px;background:#000;}
+/*jdt_b*/
+.jdt_b li{margin:5px 4px 0 0;width:52px;height:64px;}
+.jdt_b li.last{margin-right:0;}
+.jdt_b li a img{width:52px;height:64px;}
+.jdt_b li.on a{display:block;border:2px solid #d35ac1;}
+.jdt_b li.on a img{width:46px;height:58px;border:1px solid #fdf9fd;}
+/*jdt_c*/
+.jdt_c{position:absolute;top:326px;left:130px;z-index:3;height:20px;}
+.jdt_c a{display:block;margin-right:5px;float:left;width:10px; height:10px; overflow:hidden;font-size:10px;background:url(http://file.chexun.com/images_index_new/icon1.gif) 0 -69px no-repeat;text-indent:-9999em; filter:alpha(opacity=60); -moz-opacity:0.6; -khtml-opacity: 0.6; opacity: 0.6;}
+.jdt_c a.on{background-position:-16px -69px; filter:alpha(opacity=100); -moz-opacity:1.0; -khtml-opacity: 1.0; opacity: 1.0;}
+/*jdt_d*/
+.jdt_d{position:absolute;top:326px;right:10px;width:25px;height:9px;overflow:hidden;}
+.jdt_d a{display:block;float:right;text-indent:-9999px;width:7px;height:9px;background:url(http://file.chexun.com/images_index_new/bg_jdt.gif) -18px -35px no-repeat;overflow:hidden;}
+.jdt_d a.pgup{margin-right:9px;background-position:0 -35px;}
+/*头版焦点图
+.jdtc1{width:370px;height:220px; border:none;}
+.jdtc1 .jdt_a .trans_layer{top:0px !important;filter:alpha(opacity=50);opacity:0.5;}
+.jdtc1 .jdt_a h3{top:0px !important;}
+.jdtc1 .jdt_c{top:194px; height:25px; left:230px;}
+.jdtc1 .jdt_d{top:189px;}
+.jdtc1 .jdpic img{width:370px;height:220px;}
+.jdtc1 .btnarea{display:none;}
+.jdtc1 .jdt_d{display:none;}
+.jdtc1 .jdt_c a{text-indent:0px; width:25px; margin-right:1px; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; height:25px; line-height:25px; text-align:center; font-family:"微软雅黑"; font-weight:bold; color:#fff; font-size:14px; background-image:none; background-color:#46454a;}
+.jdtc1 .jdt_c a.on{background-color:#000;}
+*/
+/*车讯资讯焦点图*/
+.jdtc1,.jdtc2,.jdtc3,.jdtc4{width:290px;height:170px; border:none;}
+.jdtc1 .jdt_a .trans_layer,.jdtc2 .jdt_a .trans_layer,.jdtc3 .jdt_a .trans_layer,.jdtc4 .jdt_a .trans_layer{top:0px !important;filter:alpha(opacity=50);opacity:0.5;}
+.jdtc1 .jdt_a h3,.jdtc2 .jdt_a h3,.jdtc3 .jdt_a h3,.jdtc4 .jdt_a h3{top:0px !important; font-weight:normal; font-size:12px;}
+.jdtc1 .jdt_c,.jdtc2 .jdt_c,.jdtc3 .jdt_c,.jdtc4 .jdt_c{top:149px; height:20px; left:196px;}
+.jdtc1 .jdt_d,.jdtc2 .jdt_d,.jdtc3 .jdt_d,.jdtc4 .jdt_d{top:149px;}
+.jdtc1 .jdpic img,.jdtc2 .jdpic img,.jdtc3 .jdpic img ,.jdtc4 .jdpic img{width:290px;height:170px;}
+.jdtc1 .btnarea ,.jdtc1 .jdt_d,.jdtc2 .btnarea ,.jdtc2 .jdt_d,.jdtc3 .btnarea ,.jdtc3 .jdt_d,.jdtc4 .btnarea ,.jdtc4 .jdt_d{display:none;}
+/*图片滚动*/
+.pic_scroll{width:978px; height:125px; background:#f6f6f6; position:relative;}
+.pic_scroll #btn1,.pic_scroll #btn2,.pic_scroll #btn3,.pic_scroll #btn4{width:35px; height:35px; position:absolute; cursor:pointer; text-indent:-9999px; overflow:hidden; background:url(http://file.chexun.com/images_index_new/icon1.gif) no-repeat left -85px; left:20px; top:20px;}
+.pic_scroll #btn2,.pic_scroll #btn4{background-position:-45px -85px; left:920px;}
+.pic_scroll .viewer{height:110px; width:955px; clear:both; overflow:hidden; position:absolute; top:12px; left:15px;}
+.pic_scroll #viewerFrame,.pic_scroll #viewerFrame2{width:2000px; clear:both; padding:0;}
+.pic_scroll .viewer img{display:inline;border:1px solid #E7E8ED;width:60px;height:60px;}
+.pic_scroll .viewer a{display:block; float:left; width:70px; height:105px; line-height:16px;text-align:center;color:#0b5fb7;margin-right: 3px;}
+.pic_scroll .viewer a:hover{color:#0b5fb7;}
+/*美女车模*/
+a.w_pmoblie{background: url(http://file.chexun.com/images_index_new/tel.png) no-repeat scroll 0 6px transparent;display: block; padding-left: 20px;padding-right:8px;}
+.mncm{width:980px; position:relative;height:245px;}
+.mncm #view2{width:900px;height:245px;clear:both; overflow:hidden; position:absolute; top:0px; left:45px;}
+.mncm #viewFrame2{width:2000px; clear:both; padding:0;}
+.mncm #viewFrame2 ul.yz{width:300px;float:left;}
+.mncm #viewFrame2 ul.yz li{width:150px;height:245px;float:left;overflow:hidden;}
+.mncm #viewFrame2 ul.yz li img{border:1px solid #e7e8ed;}
+.mncm #viewFrame2 ul.yz li h4{font-size:14px;height:28px;line-height:28px; width:140px;text-align:center; font-weight:normal;}
+.mncm .btndw{position:relative;width:980px;}
+.mncm .btndw a{display: block;height:53px;overflow: hidden;width:25px;top:77px;position: absolute;}
+.mncm .btndw a.up{background: url("http://file.chexun.com/images_index_new/icon.gif") no-repeat scroll 0 -138px;left:0px;}
+.mncm .btndw a.up:hover{background-position:-108px -138px;}
+.mncm .btndw a.down{background: url("http://file.chexun.com/images_index_new/icon.gif") no-repeat scroll -49px -138px;right:0px;}
+.mncm .btndw a.down:hover{background-position:-151px -138px;}
+/*全国城市切换*/
+.title_ban ul li{float:left;padding:0 10px;}
+.title_ban ul li.on{background:#fff;margin-top:2px;height:26px; overflow:hidden;line-height:26px;}
+.title_ban ul li.on a{color:#4a4a4a;}
+.title_ban ul li.on a:hover{color:#05487d;}
+/*20120222*/
+.partrig .content{padding:10px 0px 15px 8px;}
+.partt{border-bottom:none;border-top:none;}
+/*网友调查*/
+.wydc .content a{display:block; width:30px; text-align:center; float:left; margin-left:20px; margin-top:10px;}
+.wydc p{background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left 9px; padding-left:8px;}
+.ccf .content{text-align:center; padding:15px 0 0 0;}
+.ccf .content b{display:block; height:34px; line-height:34px; text-align:center;}
+/*高端访谈*/
+.gdft .tw_in3 .text{float:left; width:133px;}
+.gdft .tw_in3 .text b{display:block; background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left -24px; padding-left:8px;}
+.gdft .dot2 li{background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left 8px;}
+.gdft .dot2 li a{color:#4A4A4A;}
+/*热门文章*/
+.zhuanti .title{position:relative; border-top:none !important;}
+.zhuanti ul.tabts{position:absolute; left:0px; top:1px; font-size:14px;}
+.zhuanti ul.tabts li{width:60px;height:28px;float:left;text-align:center; color:#333; border-right:1px solid #ddd;line-height:28px; cursor:pointer;}
+.zhuanti ul.tabts li.on{background:#fff; font-weight:bold;}
+.zhuanti .content{padding-right:10px;}
+.zhuanti .content .tw_in2{width:223px;}
+.partleft .fouce2{padding-top:20px;}
+/*精品栏目*/
+.jplm,.jryw{padding:5px 10px 10px 10px;}
+.jplm .tw_in4{margin-top:10px; height:90px; background:url(http://image.auto.china.cn/epoch/x_line.gif) repeat-x left bottom;}
+.jplm .tw_in4{width:311px;}
+/*今日要闻*/
+.jryw .dot2{padding:10px 0 5px;}
+.jryw .dot2 li{font-size:14px; line-height:26px;}
+/*资讯中心*/
+.zxzx{border-right:1px solid #E9E9E9; width:734px;}
+.zxzx .tw_in2{background:url(http://image.auto.china.cn/epoch/x_line.gif) repeat-x left bottom;}
+.zxzx .dot{padding-top:5px;}
+.zxzx .content .title{position:relative; border-top:none !important; background:#f9f9f9;}
+.zxzx .tw_in2 .text{float:left; width:219px;}
+.zxzx .tw_in2 .text b{display:block; background:url(http://image.auto.china.cn/epoch/dot.gif) no-repeat left -24px; padding-left:8px;}
+.zxzx2 .tw_in2 .text{width:270px;}
+.zxzx1{width:339px; float:left;}
+.zxzx1 ul.tabts{position:absolute; left:0px; top:1px; font-size:12px;}
+.zxzx1 ul.tabts li{width:70px;height:28px;float:left;text-align:center; color:#333; border-right:1px solid #ddd;line-height:28px; cursor:pointer;}
+.zxzx1 ul.tabts li.on{background:#fff; font-weight:bold;}
+.zxzx1 .content{padding:15px 10px 10px;}
+.zxzx2{width:394px; float:left; border-left:1px solid #E9E9E9;}
+.zxzx2 ul.tabts{position:absolute; left:0px; top:1px; font-size:12px;}
+.zxzx2 ul.tabts li{width:70px;height:28px;float:left;text-align:center; color:#333; border-right:1px solid #ddd;line-height:28px; cursor:pointer;}
+.zxzx2 ul.tabts li.on{background:#fff; font-weight:bold;}
+.zxzx2 .content{padding:15px 10px 10px;}
+.zxzx1 .title,.zxzx2 .title{padding-top:0px !important;}
+/*人物*/
+.renw{border-right:1px solid #E9E9E9; width:734px;}
+.renw .tw_in1{height:134px; width:150px; padding-right:26px; padding-left:1px;}
+.renw .tw_in1 .text{line-height:34px; text-align:center; font-size:14px;}
+.renw .tw_in1 .text a{color:#000;}
+.renw .tw_in1 .text a:hover{color:#0b5fb7;}
+.renw .tw_in1 p{height:100px; width:150px;}
+.renw .content{padding:20px 0 10px 25px;}
+/*评论报道*/
+.plbd{border-bottom:none !important;}
+.plbd .content b a{display:block; padding-bottom:5px; color:#0D519C}
+.plbd .content .zxzx1 .content,.plbd .content .zxzx2 .content{padding-top:5px;}
+.plbd .content b.tits{background:url(http://image.auto.china.cn/epoch/icon_003.gif) no-repeat left -313px; padding-left:10px; display:block;}
+/*广告位*/
+.partr_ad{border-top:1px solid #e9e9e9; padding-top:10px;}
+.partrig3 .ggwts2{text-align:center; padding-left:0px;}
+/*热门车型*/
+.rmcx{width: 734px; float:left;}
+.rmcx .title{border-bottom:1px solid #ddd; font-size:14px; font-weight:bold;}
+.rmcx .content{padding:10px;}
+.rmcx .content ul{padding-top:10px;}
+.rmcx .content ul li{float:left; display:inline-block; z-index:9; position:relative; width:92px; text-align:center; padding-right:10px; background:url(http://image.auto.china.cn/epoch/icon_003.gif) no-repeat right -210px;z-index:555;}
+.rmcx .content ul li a{display:block;color:#7e7e7e;}
+.rmcx .content ul li a:hover{color:#0D519C;}
+.rmcx .cxcs{display:none; z-index:777; position:absolute; width:129px; top:1px; right:0px;background: url(http://image.auto.china.cn/epoch/bb.gif) no-repeat; padding-top:20px; border-bottom:1px solid #dfdfdf;}
+.rmcx .cxcs a{display:block; text-align:left; border-bottom:1px dashed #e4e4e4; padding-left:20px; background:url(http://image.auto.china.cn/epoch/icon_003.gif) no-repeat;}
+.rmcx .cxcs a.bj{background-position:5px 7px;}
+.rmcx .cxcs a.pic{background-position:5px -33px;}
+.rmcx .cxcs a.wz{background-position:5px -72px; border-bottom:none;}
+/*快速搜车*/
+.partt .partrig{border-left:1px solid #e9e9e9;}
+.kssc .tit_h2{height:30px; line-height:30px; background:url(http://image.auto.china.cn/epoch/icon_003.gif) no-repeat 80px -250px; padding-left:15px; font-size:14px; color:#000; font-weight:bold;}
+.kssc .content{padding-top:0px;}
+.kssc .content li{float:left; height:28px;}
+.kssc .content li.select{width:92px; padding-right:3px;}
+.kssc .content li.ckbx{width:95px;}
+.kssc .content li.ckbx i{font-style:normal; float:left;}
+.kssc .content li.btn{width:40px;}
+.kssc .content li select{width:90px; height:20px; margin:0px; padding:0px; color:#9c9c9c; border:1px solid #9c9c9c;}
+.kssc .content li a.btn_gy{padding:0 5px;}
+.kssc .content .checkbox{margin-right:2px;}
+.kssc .content .input{width:84px; padding-left:2px; padding-right:2px; margin:0px; color:#9c9c9c; border:1px solid #9c9c9c;}
+/*汽车中国*/
+.qczg_part{width:978px;border:solid #ddd;border-width:0 1px 1px 1px;}
+.qczg_titban{width:948px; background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) repeat-x 0 0;height:38px;border-bottom:1px solid #ddd;line-height:38px;padding:0 15px;}
+.qczg_titban h2{font-size:14px;font-weight:bold;color:#165090;}
+.qczg_conban{}
+.qczg_art_box{border:1px solid #ccc;}
+.qczg_art_box .art_title{background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) repeat-x 0 -55px;height:25px;line-height:25px;padding:0 10px;}
+.qczg_art_box .art_title h3{font-weight:normal;}
+.qczg_art_box .art_title span{float:right;}
+.qczg_art_box .art_content{}
+.people_tw{width:120px; float:left;height:200px;padding-right:16px;padding-bottom:10px;}
+.people_tw .text{padding-top:10px;height:36px;line-height:18px; overflow:hidden;text-align:center;}
+.qczg_tbjb .qczg_conban{padding:15px 0 0px 20px;width:958px;}
+.lmzj{width:300px;float:left;padding-right:19px;padding-bottom:15px;}
+.lmzj .lmzj_tw p{float:left;padding-right:10px;}
+.lmzj .lmzj_tw p img{width:130px;height:160px;}
+.lmzj .lmzj_tw p.text{float:right;width:160px;line-height:24px;color:#a6a6a6;padding-right:0;}
+.lmzj .lmzj_tw p.text b{display:block;}
+.lmzj .lmzj_tw p.text a{color:#165090;}
+.qczg_xline{margin:5px auto 10px;background:url(http://image.auto.china.cn/epoch/qczg_xline.gif) repeat-x;width:100%; clear:both;height:1px; overflow:hidden; font-size:0;}
+.qczg_dotjb li{color:#666;}
+.qczg_dotjb li a{color:#666;}
+.qczg_lmzj .qczg_conban{padding:15px 0 0px 20px;width:958px;border-bottom:1px solid #ddd;}
+/*article*/
+.art_left{width:628px;float:left;border:solid #ccc;border-width:0 1px 1px 1px;border-top:2px solid #00396b;}
+.art_rig{width:340px;float:right;}
+.art_con{width:578px;padding:10px 25px;}
+.art_con h1{font-size:22px;font-weight:bold;color:#000;text-align:center;padding:10px 0;}
+.art_dqwz{color:#09679b;}
+.art_dqwz a{color:#09679b;}
+.art_con .art_infor{color:#666;}
+.art_con .art_infor span{float:right; background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) no-repeat 0 -151px;padding-left:20px;padding-right:10px;color:#b0b0b0;}
+.art_con .art_infor span a{color:#0b4692;}
+.art_con .art_infor span.zf{background-position:0 -185px;}
+.art_con .art_infor span.pl{background-position:0 -211px;}
+.art_con .art_nr{padding:15px 5px;}
+.art_con .art_nr p{font-size:14px;color:#000;line-height:24px;padding:10px 0;}
+.art_con .art_nr a{color:#0D519C;}
+.art_con .author{text-align:right;font-weight:bold;font-size:14px;color:#000;}
+/*分页*/
+.pagef{text-align:center;font-size:14px;}
+/*内容左侧框*/
+.fhsy{width:608px;margin:0 auto;}
+.fhsy .art_title a{color:#123261;}
+.fhsy .art_content{padding:20px;width:568px;}
+.fhsy .art_content .pic{float:left;width:215px;}
+.fhsy .art_content .textli{width:350px;float:right;}
+.fhsy .art_content .textli h2{text-align:center;font-size:14px;font-weight:bold;color:#000;}
+.fhsy .art_content .textli h2 a{color:#000;}
+.fhsy .art_content .textli ul li{background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) no-repeat 0 -244px;height:24px;line-height:24px;padding-left:10px;font-size:14px;}
+.fhsy .art_content .textli ul li a{color:#112e56;}
+/*分享*/
+.share{width:610px;}
+/*相关文章*/
+.qczg_xgwz{width:608px;margin:0 auto;}
+.qczg_xgwz .art_content{padding:20px;width:568px;}
+.qczg_xgwz .art_content .textli{width:550px;float:none;}
+.qczg_xgwz .art_content .textli ul li{background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) no-repeat 0 -244px;height:24px;line-height:24px;padding-left:10px;font-size:14px;}
+.qczg_xgwz .art_content .textli ul li a{color:#112e56;}
+/*相关车型*/
+.xgcx_js{border-top:1px solid #ccc;padding:5px 10px;}
+.xgcx_js .titlegb{border-bottom:1px solid #ccc;height:32px;line-height:32px;padding:0 10px;}
+.xgcx_js .titlegb h3{font-weight:bold;font-size:14px;color:#000;}
+.xgcx_js .titlegb span{float:right;color:#ccc;font-size:14px;}
+.xgcx_js .titlegb span a{color:#093e8a;}
+.xgcx_js .contentgb{padding:20px 10px;}
+.xgcx_js .contentgb .pic{float:left;}
+.xgcx_js .contentgb .inforxx{width:420px;float:right;color:#c0c0c0;}
+.xgcx_js .contentgb .inforxx p b{font-size:18px;color:#c00;}
+.xgcx_js .contentgb .inforxx p b a{color:#c00;}
+.xgcx_js .contentgb .inforxx p a{color:#093e8a;}
+.xgcx_js .contentgb .inforxx ul li{width:200px;padding-right:10px;float:left;height:36px;line-height:36px;color:#666;}
+/*相关文章*/
+.qczg_rmph .art_title{border-bottom:1px solid #ddd;}
+.qczg_rmph .art_title h3{font-size:14px;color:#000;}
+.qczg_rmph .art_content{width:326px;}
+/*来源信息*/
+.source{height: 21px; line-height: 21px; margin: 0 auto; padding-bottom: 10px; padding-top:10px; width: 610px; border-top:1px dashed #ccc; margin-top:15px;}
+.source .source_left{display: inline; float: left;}
+.source .source_right{display: inline; float: right;}
+.source a{color: #7E7E7E;}
+/*香车美女*/
+.qczg_xcmn .art_title{border-bottom:1px solid #ddd;}
+.qczg_xcmn .art_title h3{font-size:14px;color:#000;}
+.qczg_xcmn .art_content{padding:20px 0 0 12px;width:326px;}
+.cz_dotts{padding:10px;}
+.cz_dotts li{padding-left:8px;line-height:32px;height:32px;font-size:12px; overflow:hidden;background:url(http://image.auto.china.cn/epoch/qczg_xline.gif) repeat-x 0 31px;color:#ddd;}
+.cz_dotts li a{color:#333;}
+.cz_dotts li span{font-size:10px;display:block;color:#4b555e; background:url(http://image.auto.china.cn/epoch/qczg_icon0.gif) no-repeat 0 -126px;width:14px;height:13px;text-align:center;float:left;margin-top:9px;line-height:13px;margin-right:8px; font-family:Arial, Helvetica, sans-serif;}
+.cz_dotts li.list_top span{background-position:0 -95px;color:#fff;}
+.cz_dotts b{font-weight:bold;color:#01509b;}
+.cz_dotts b i{font-style:normal;color:#424242;}
+.cz_dotts b i a{color:#475198;}
+.cz_dotts b i a:hover{color:#0b5fb7;}
+.xcmn_tw{width:152px;float:left;padding-right:8px;height:230px;padding-bottom:10px;overflow:hidden;}
+.xcmn_tw p{width:150px;border:1px solid #e7e8ed;}
+.xcmn_tw .text{text-align:center;font-size:14px;line-height:20px;height:20px;padding:5px 0;}
+/*新闻列表*/
+.newstit{padding:10px;margin:0 10px;}
+.newstit b{font-size:14px;padding-right:25px;}
+.newslist{width:660px;border-top:1px solid #e7e8ed;padding:10px;margin:0 10px;}
+.newslist h4{font-weight:bold;font-size:14px;}
+.newslist p{color:#333;}
+.newslist .keyword{color:#04477c;}
+.newslist .keyword a{color:#04477c;padding:0 5px;}
+.newslist .keyword a:hover{color:#0b5fb7;}
+/*论坛精选*/
+.ltjx .title{border-top:1px solid #e7e8ed;}
+.ltjx .content{padding:20px 0 10px 14px;width:264px;}
+.ltjx .content .tw_in2{height:110px;padding-right:10px;width:120px;float:left;}
+.ltjx .content .tw_in2 .text{height:20px;line-height:20px; overflow:hidden;}
+.ltjx .content .btn_gy{margin-left:60px;}
+/*热门新闻排行榜*/
+.xwph2 .title{border-top:1px solid #e7e8ed;}
+.xwph2 .content .cz_dotts li{width:250px;}
+.tab{width:278px; background:url(http://file.chexun.com/images_index_new/cx_00.gif) repeat-x left bottom;height:28px;line-height:28px;}
+.tab li{border-right:1px solid #e7e8ed;width:70px;float:left;text-align:center; cursor:pointer;}
+.tab li.on{background:#fff;color:#c0bfc5;}
+/*车模趣图*/
+.cmqt .title{border-top:1px solid #e7e8ed;}
+.cmqt .content{padding:20px 0 10px 14px;width:264px;}
+.cmqt .content .tw_in2{height:220px;padding-right:10px;width:120px;float:left;}
+.cmqt .content .tw_in2 .text{height:20px;padding-top:15px;text-align:center;}
+/*叶新海制作：栏目列表*/
+.Art_list{width:628px; height:auto;}
+.Art_list h1{background: url("http://image.finance.china.cn/news/b2.gif") repeat-x scroll 0 0 transparent; color: #0D519C; font-size: 14px; font-weight: normal; height: 24px; padding-left: 15px; padding-top: 7px; width: 613px;}
+.Art_list h1 img{height: 13px; margin-right: 10px; position: relative; top: 2px; width: 4px;}
+.Art_list h1 span a{color: #7E7E7E;}
+.Art_list h1 a{color: #0D519C; font-size: 14px;}
+.Art_list .news_list{width:628px; font-size:14px; color:#0D519C; margin-top:10px;}
+.Art_list .news_list a{font-size:14px; color:#0D519C;}
+.news_list a:hover{color: #0D519C;}
+.news_list li{width:601px; height:26px; line-height:26px; overflow:hidden; background:url(http://image.finance.china.cn/news/list_img.gif) no-repeat left; padding-left:12px; margin-left:15px;}
+.news_list li span{float:right; display:inline; margin-right:42px; color:#8A8A8A;}
+/*叶新海制作：翻页定义*/
+.Art_list .page{width:260px; height:22px; margin-left:350px; margin-top:40px; margin-bottom:20px;}
+.Art_list .page li{float:left; display:inline; background-color:#F5F9FB; border:1px solid #93BBD5; margin-left:8px;}
+.Art_list .page .p_a{width:50px; height:22px; line-height:22px; overflow:hidden;}
+.Art_list .page .p_a a{width:43px; height:22px; line-height:22px; display:block;padding-left:7px; font-weight:bold; color:#0D519C;}
+.Art_list .page .p_b{width:22px; height:22px; line-height:22px;}
+.Art_list .page .p_b a{width:15px; height:22px; line-height:22px; display:block; padding-left:7px; font-weight:bold; color: #FF0000;}
+.Art_list .page .p_c{width:22px; height:22px; line-height:22px;}
+.Art_list .page .p_c a{width:15px; height:22px; line-height:22px; display:block; padding-left:7px; font-weight:bold; color:#0D519C;}
+/*2012-04-11*/
+/*小图片播放*/
+.PicturePlayBack{width:570px; height:auto; position:relative; margin-top:15px;}
+.PicturePlayBack .PPB_Arrow_left{background: url(http://image.finance.china.cn/pic/2011-1-10_img02.gif) no-repeat; width:25px; height:60px; cursor:pointer; position:absolute; top:40%; left:0%;}
+.PicturePlayBack .Picture_play{width:auto; height:auto; overflow:hidden; text-align:center;}
+.Picture_play img{border:1px solid #cac8cb;}
+.PicturePlayBack .PPB_Arrow_right{background: url(http://image.finance.china.cn/pic/2011-1-10_img03.gif) no-repeat; width:25px; height:60px; display: inline; cursor:pointer; position:absolute; top:40%; right:0%;}
+.PicturePlayBack a span{display: none;}
+.PN p{margin-top:15px;}
+/*2012-04-11*/
+/*翻页定义*/
+.BX_page{width:538px; height:auto; margin:0 auto;}
+.y_page{margin:10px auto; float:right;}
+.y_page li{float:left; display:inline; background-color:#F5F9FB; border:1px solid #93BBD5; margin-left:8px; margin-top:10px;}
+.y_page .p_a{width:50px; height:22px; line-height:22px; overflow:hidden;}
+.y_page .p_a a{width:43px; height:22px; line-height:22px; display:block;padding-left:7px; font-weight:bold; color:#0D519C;}
+.y_page .p_b{width:22px; height:22px; line-height:22px;}
+.y_page .p_b a{width:15px; height:22px; line-height:22px; display:block; padding-left:7px; font-weight:bold; color: #FF0000;}
+.y_page .p_c{width:22px; height:22px; line-height:22px;}
+.y_page .p_c a{width:22px; height:22px; line-height:22px; display:block; font-weight:bold; color:#0D519C; text-align:center;}
+/*2012-04-16 百度新闻热搜词*/
+.column_one{width:338px; height:auto; border:1px solid #CCCCCC;}
+.column_one h1{background:url(http://image.finance.china.cn/news/lmbj.gif) repeat-x; width:328px; height:26px; line-height:26px; padding-left:10px;}
+.column_one h1 a{font-size:14px; font-weight: normal; color:#000;}
+.column_one h1 span{font-size:14px; font-weight: normal; color:#000;}
+.column_one h2{width:312px; height:40px;; line-height:40px; margin-left:15px;}
+.column_one h2 a{font-size:14px; font-weight:bold; color:#0D519C;}
+.column_one h2 a:hover{color: #FF0000;}
+.column_one .col_list{width:338px; height:auto; margin-bottom:5px;}
+.column_one .cli_list_margintop{margin-top:5px;}
+.col_list li{width:318px; height:22px; line-height:22px; background:url(http://image.finance.china.cn/news/list_img1.gif) no-repeat left; padding-left:10px; margin-left:10px;}
+.col_list li a{color:#0D519C;}
+.col_list li a:hover{color: #FF0000;}
+.column_one .baidu_new{float: right; display:inline; margin-right:10px; font-size:12px; color: #666;}
+.column_one .baidu_title{float:left; display:inline}
+.column_one .baidu_new a{font-size:12px; color: #666;}
+.baudu_A li{overflow:hidden;}
+.baudu_A li a{padding-right:15px;}
+/*2012-04-23 热图一览*/
+.art_left1{width:630px;float:left; border:0px;}
+.art_left1 .art_left_a{width:628px; border:solid #ccc;border-width:0 1px 1px 1px;border-top:2px solid #00396b;}
+.Content_Two{width:628px; border:1px solid #ccc; height:auto; margin:0 auto; background-color:#fff; margin-top:10px; padding-bottom:15px;}
+.Content_Two a:hover{text-decoration: underline; color:#d80b06;}
+.Content_Two h1{background:url(http://image.finance.china.cn/pic/photo_bg01.jpg) repeat-x; width:628px; height:27px; line-height:27px; font-size:14px; color:#000; margin:0 auto;}
+.Content_Two h1 span{float:left; margin-right:10px;}
+.Content_Two .ConTwo_Tex01{width:160px; height:auto; margin-left:35px; margin-top:15px; float:left; display:inline;}
+.ConTwo_Tex01 img{width:158px; height:118px; border:1px solid #cac8cb; overflow:hidden; vertical-align:middle;}
+.ConTwo_Tex01 p{text-align:center; color:#0d519c; margin-top:14px;}
+.ConTwo_Tex01 p a{color:#0d519c;}
+/*2012-04-23 高清图集赏析*/
+.Content_Three{width:628px; border:1px solid #ccc; height:auto; margin:0 auto; background-color:#fff; margin-top:10px; padding-bottom:15px;}
+.Content_Three a:hover{text-decoration: underline; color:#d80b06;}
+.Content_Three h1{background:url(http://image.finance.china.cn/news/photo/photo_bg01.jpg) repeat-x; width:628px; height:27px; line-height:27px; font-size:14px; color:#000; margin:0 auto;}
+.Content_Three h1 span{float:left; margin-right:10px;}
+.Content_Three .ConThree_Tex01{width:200px; height:auto; margin-left:35px; margin-top:15px; float:left; display:inline;}
+.ConThree_Tex01 img{width:198px; height:148px; border:1px solid #cac8cb; overflow:hidden; vertical-align:middle;}
+.ConThree_Tex01 p{text-align:center; color:#0d519c; margin-top:14px;}
+.ConThree_Tex01 p a{color:#0d519c;}
+.clear{clear:both;}
+/*2012-04-23 图片列表定义*/
+.Photo_List{width:628px; font-size:14px; color:#0D519C; padding-bottom:20px;}
+.Photo_List a{font-size:12px; color:#0D519C;}
+.Photo_List a:hover{color: #FF0000;}
+.Photo_List h4{font-weight:normal; padding-top:5px; line-height:20px; height:40px;}
+.Photo_List li{width:160px; overflow:hidden; margin-left:37px; margin-top:15px; float:left; display:inline;}
+.Photo_List li img{border:1px solid #cac8cb; width:158px; height:auto;}
+/*----------------------------------------------2013-09-22 更改右边样式-------------------------------------------------*/
+/*右边定义-----右边广告定义*/
+.right_banner{width:340px; height:249px; overflow:hidden;}
+/*右边栏目----今日推荐*/
+.column_one{width:338px; height:auto; border:1px solid #CCCCCC; margin-top:8px;}
+.column_one h1{background:url(http://image.finance.china.cn/news/lmbj.gif) repeat-x; width:328px; height:26px; line-height:26px; padding-left:10px;}
+.column_one h1 a{font-size:14px; font-weight: normal; color:#000;}
+.column_one h1 span{font-size:14px; font-weight: normal; color:#000;}
+.column_one h2{width:312px; height:40px;; line-height:40px; margin-left:15px;}
+.column_one h2 a{font-size:14px; font-weight:bold; color:#0D519C;}
+.column_one h2 a:hover{color: #FF0000;}
+.column_one .col_list{width:338px; height:auto; margin-bottom:5px;}
+.column_one .cli_list_margintop{margin-top:5px;}
+.col_list li{width:318px; height:22px; line-height:22px; background:url(http://image.finance.china.cn/news/list_img1.gif) no-repeat 0 10px; padding-left:10px; margin-left:10px; overflow:hidden;}
+.col_list li a{color:#0D519C;}
+.col_list li a:hover{color: #FF0000;}
+/*百度新闻热搜词*/
+.column_one .baidu_new{float: right; display:inline; margin-right:10px; font-size:12px; color: #666;}
+.column_one .baidu_title{float:left; display:inline}
+.column_one .baidu_new a{font-size:12px; color: #666;}
+.baudu_A li{overflow:hidden;}
+.baudu_A li a{padding-right:15px;}
+/*右边栏目---24小时排行 一周排行*/
+.column_two{width:338px; height:auto; border:1px solid #CCCCCC; margin-top:8px;}
+.column_two .col_title{background:url(http://image.finance.china.cn/news/lmbj.gif) repeat-x; width:338px; height:26px; line-height:26px;}
+.column_two .col_title li{float:left; display:inline; width:102px; height:26px; text-align:center;}
+.column_two .col_title li a{display:block; width:102px; height:26px; font-size:14px;}
+.col_title .title_one{background:url(http://image.finance.china.cn/news/bj2.gif) no-repeat; width:102px; height:26px;}
+.col_title .title_two{background:url(http://image.finance.china.cn/news/bj1.gif) no-repeat; width:102px; height:26px;}
+.column_two .col_two_list{width:328px; height:258px; background:url(http://image.finance.china.cn/news/shuzi.gif) no-repeat; margin-left:10px; margin-top:5px;}
+.col_two_list li{width:303px; height:25px; line-height:24px; padding-left:25px;}
+.col_two_list li a{color:#0D519C;}
+.col_two_list li a:hover{color: #FF0000;}
+/*股票行情*/
+.column_three{width:338px; height:auto; border:1px solid #CCCCCC; margin-top:8px;}
+.column_three h1{background:url(http://image.finance.china.cn/news/lmbj.gif) repeat-x; width:328px; height:26px; line-height:26px; padding-left:10px;}
+.column_three h1 label{float:left; height:26px; line-height:26px;}
+.column_three h1 span{float:right; display:inline; margin-top:2px;}
+.column_three h1 span .in_one{float:left; display:inline; width:100px; height:18px; line-height:18px; border:1px solid #ABADB3; margin-right:4px;}
+.column_three h1 span .in_three{float:left; display:inline; border:1px solid #ABADB3; width:48px; height:20px; margin-right:4px; overflow:hidden;}
+.column_three h1 span .in_two{float:left; border:none; display:inline; width:45px; height:20px; background:url(http://image.finance.china.cn/news/cx.gif?) no-repeat; cursor:pointer; margin-right:4px;}
+.column_three h1 a{font-size:14px; font-weight: normal; color:#000;}
+.column_three .col_title_one{background:url(http://image.finance.china.cn/news/lmbj.gif) repeat-x; width:338px; height:26px; line-height:26px;}
+.column_three .col_title_one li{float:left; display:inline; width:83px; height:26px; text-align:center;}
+.column_three .col_title_one li a{display:block; width:83px; height:26px; font-size:12px;}
+.col_title_one .title_three{background:url(http://image.finance.china.cn/news/bj4.gif) no-repeat; width:83px; height:26px;}
+.col_title_one .title_four{background:url(http://image.finance.china.cn/news/bj3.gif) no-repeat; width:83px; height:26px;}
+.column_three .col_three_lista{width:288px; height:32px; line-height:32px; margin:0 auto; color:#7E7E7E; border-bottom:1px solid #E5E5E5; margin-bottom:5px; overflow:hidden; vertical-align:middle;}
+.col_three_lista span{width:96px; display:block; float:left;}
+.col_three_lista .t_a{text-align:left;}
+.col_three_lista .t_b{text-align:center;}
+.col_three_lista .t_c{text-align:right;}
+.column_three .col_three_listb{width:288px; line-height:20px; margin:0 auto; color:#7E7E7E; margin-bottom:5px;}
+.col_three_listb li{height:20px; overflow:hidden; vertical-align:middle;}
+.col_three_listb span{width:96px; display:block; float:left;}
+.col_three_listb .t_a{text-align:left; color:#0D519C;}
+.col_three_listb .t_a a{color:#0D519C;}
+.col_three_listb .t_b{text-align:center; color:#FF3217;}
+.col_three_listb .t_c{text-align:right; color:#FF3217;}
+.red .t_b{color:#FF3217;}
+.red .t_c{color:#FF3217;}
+.green .t_b{color:#129800;}
+.green .t_c{color:#129800;}
+.gray .t_b{color:#7E7E7E;}
+.gray .t_c{color:#7E7E7E;}
+/*logo图片*/
+.column_four{width:338px; height:auto; border:1px solid #CCCCCC; margin-top:8px; overflow:hidden;}
+.column_four ul{width:338px; height:auto; margin-bottom:10px; overflow:hidden;}
+.column_four ul li{float:left; display:inline; margin:15px 0px 0px 14px;}
+.Spread360 ul li{width:148px; height:130px; overflow:hidden;}
+.Spread360 ul li img{vertical-align:middle;}
+.Spread360 ul li h4{font-weight:normal; line-height:18px; padding-top:5px;}
+.Spread360 ul li h4 a{color:#0D519C;}
+.Spread360 ul li h4 a:hover{color:#ff0000;}
