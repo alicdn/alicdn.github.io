@@ -1,0 +1,177 @@
+@charset "utf-8";
+	/* 头部定义 top logo*/
+	/*顶部标题、邮箱登陆、新手注册、显示日期*/
+	.TopText {
+	width:100%;
+	height:35px;
+	background: url(http://image.finance.china.cn/news/finance/bj2.png) repeat-x scroll 0 0 transparent;
+}
+.TopText .TopText_middle {
+	width:959px;
+	height:35px;
+	background: url(http://image.finance.china.cn/news/finance/bj2.png) repeat-x scroll 0 0 transparent;
+	margin:0 auto;
+	position:relative;
+}
+.TopText_middle h1 {
+	font-size:16px;
+	color:#333333;
+	height:35px;
+	line-height:35px;
+	float:left;
+}
+.TopText_middle h2 {
+	font-size:12px;
+	color:#dddddd;
+	height:35px;
+	line-height:35px;
+	float:right;
+	display:inline;
+	font-weight:normal;
+}
+.TopText_middle h1 a {
+	font-size:12px;
+	color:#333333;
+	font-weight:normal;
+}
+.TopText_middle h1 a:hover {
+	color:#d80b06;
+}
+.tody {
+	color:#333;
+	float:right;
+	display:inline;
+	height:35px;
+	line-height:35px;
+}
+.SignMail {
+	float:right;
+	display:inline;
+	height:28px;
+	margin-top:7px;
+}
+.SignMail a {
+	color:#0d519c;
+	font-weight:bold;
+}
+.SignMail input {
+	width:66px;
+	height:18px;
+	border:1px solid #e6e6e6;
+	line-height:18px;
+	background-color:#ffffff;
+	vertical-align:middle;
+	text-indent:3px;
+	color:#cccccc;
+}
+.SignMail .submit_a {
+	background: url(http://image.finance.china.cn/news/finance/all_bj.png) no-repeat scroll -91px -25px transparent;
+	border: 0 none;
+	cursor: pointer;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 0 5px;
+	width: 59px;
+	color:#666666;
+}
+.SignMail b {
+	font-weight:normal;
+	color:#dddddd;
+}
+.login a {
+	color:#666;
+	font-weight:normal;
+}
+.search {
+	float:right;
+	display:inline;
+	width:285px;
+	height:30px;
+	margin-top:5px;
+	margin-right:15px;
+	margin-left:10px;
+}
+.search .submit {
+	background: url(http://image.finance.china.cn/news/finance/all_bj.png) no-repeat scroll -205px 0 transparent;
+	border: 0 none;
+	cursor: pointer;
+	float: right;
+	font-size: 12px;
+	height: 22px;
+	line-height: 23px;
+	padding: 0 0 5px;
+	width: 75px;
+}
+.inputwarp {
+	background: url(http://image.finance.china.cn/news/finance/all_bj.png) no-repeat scroll 0 0 transparent;
+	float: right;
+	height: 22px;
+	padding-top: 1px;
+	text-align: center;
+	width: 202px;
+	border:0 none;
+	margin-right:4px;
+}
+.search .inputwarp .txtarea {
+	border: 0 none;
+	font-size: 12px;
+	height: 16px;
+	line-height: 14px;
+	margin: 3px 8px 0 0;
+	padding: 0;
+	width: 166px;
+	overflow:hidden;
+}
+.search .inputwarp .sosologo {
+	float: left;
+	height: 16px;
+	margin-top: 3px;
+	width: 24px;
+}
+.search .inputwarp .sosologo span {
+	display: none;
+}
+/*顶部广告位左右*/
+	.TopBanner {
+	width:980px;
+	height:110px;
+	margin:3px auto 6px auto;
+}
+.TopBanner .TopBanner_left {
+	float:left;
+	width:683px;
+	height:108px;
+	border:1px solid #cccccc;
+	overflow:hidden;
+}
+.TopBanner .TopBanner_right {
+	float:right;
+	width:283px;
+	height:108px;
+	border:1px solid #cccccc;
+	overflow:hidden;
+}
+.sub_nav {
+	width:980px;
+	line-height:35px;
+	margin:0 auto;
+}
+.sub_nav a {
+	padding:0 7px;
+}
+/*返回顶部*/
+	#AdLayer {
+	position:absolute;
+	width:30px;
+	display:none;
+	height:32px;
+	top:0px;
+	right:-41px;
+	background:url(http://image.auto.china.cn/epoch/icon.gif) no-repeat 0 -78px;
+}
+#AdLayer a {
+	display:block;
+	width:30px;
+	height:32px;
+}
