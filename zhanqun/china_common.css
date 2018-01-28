@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*************************************
+*
+* 创建日期：2011-12-26
+* 制造者：姚常娥
+* 概要：
+*
+*************************************/
+
+/**==通用内容==**/
+html, body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, dl, dt, dd, p, table, caption, tbody, tfoot, thead, tr, th, td, form {margin:0;padding:0;}
+html,body {height:100%;}
+table{border-collapse:collapse;border-spacing:0;/*width:100%;*/}
+img, button {border:0 none;}
+ul, ol {list-style:none;}
+caption, th {text-align:left;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+a{color:#4a4a4a;text-decoration:none;outline:none;}
+a:hover {color:#0b5fb7;text-decoration:underline;}
+input, button, select, textarea {font-size:12px;vertical-align:middle;}
+button {cursor:pointer;}
+.clearfix:after {width:100%;content:".";display:block;height:0;font-size:0;clear:both;overflow:hidden;visibility:hidden;}
+.clearfix {width:100%;display:block;clear:both;height:0;overflow:hidden;font-size:0;}
+.blank10 {display:block;clear:both;height:10px;overflow:hidden;}
+.txtRight {text-align:right}
+.txtCenter {text-align:center}
+.txtLeft {text-align:left}
+body{background:#fff;color:#4a4a4a;font-size: 12px; line-height:20px;}
+/****通用样式****/
+.js{display:none;}
+.topbar, .header, .center, .footer, .tlink {width:980px;margin:0 auto;}
+.left{float:left;}
+.right{float:right;}
+
+.last{margin-right:0!important;padding-right:0!important;}
+.lastb {padding-bottom:0!important;margin-bottom:0!important;}
+.lastbg {background:none!important;}
+.lastbk {border-bottom:0!important;}
+.ggw {margin-bottom:10px; position:relative; }
+.cred, a.cred{color:#c00;}
+a.cred:hover{color:#db0010;}
+
+
+/*分页*/
+.page {text-align:center;font-size:14px;padding:20px 15px;color:#333;}
+.page a { vertical-align:middle;color:#333;display:inline-block;font-weight:bold;padding:1px 9px;
+	margin:0 1px;
+	_margin:0 1px;
+	*margin:0 1px;background:#e7e8ed;}
+.page a:hover {color:#0b5fb7;}
+.page a.on {color:#fff;}
+.page a.on:hover{color:#fff; text-decoration:none;}
+.page a.updown,.page a.smy{background:#fff;font-weight:normal;font-size:12px;padding:0 8px;border:1px solid #ddd;}
+
+
+/*导航*/
+.top{ width:980px; margin:0 auto; height:auto;}
+
+.nav{ width:980px; height:67px; background: url(http://image.finance.china.cn/news/industry/bj2.png) repeat-x scroll 0 -38px transparent; border-bottom:1px solid #d0d0d0; overflow:hidden; }
+.nav div{ float:left; display:inline;}
+.nav a{ color:#000;}
+.nav a:hover{ color:#d80b06; text-decoration:underline;}
+.nav .NavOne{ width:180px; height:46px; margin-left:21px;  margin-top:12px;  border-right:1px  dashed #bababa;} 
+.NavOne span{ background: url(http://image.finance.china.cn/news/industry/all_bj.png) no-repeat scroll -270px -171px transparent; display:block; width:23px; height:39px; font-size:14px; font-weight:bold;
+              color:#333333; float:left; padding-left:7px; line-height:18px; padding-top:2px;}
+.NavFive span{ background: url(http://image.finance.china.cn/news/industry/all_bj.png) no-repeat scroll -237px -171px transparent;}
+.NavOne span a{ display:block; width:23px; height:39px; font-size:14px; font-weight:bold; color:#333333; text-decoration:none;}
+.NavFive span a{ color:#970002; }
+.NavOne ul{ float:left; width:auto;  height:40px;  padding-left:5px;}
+.NavOne ul li{ height:20px; width:auto; line-height:20px;}
+.NavOne ul li a{ padding:0 6px;}
+.nav .NavTwo{ width:205px; height:46px; margin-left:21px;}
+.nav .NavThree{ width:170px; height:46px; margin-left:21px;}
+.nav .NavFour{ width:170px; height:46px; margin-left:21px; border-right:none;}
+.licai_logo{ width: 129px; height:55px; overflow:hidden; margin:0 10px 0 20px; }
