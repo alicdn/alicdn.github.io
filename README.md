@@ -1,5 +1,3 @@
-# alicdn.github.io
-
 ```markdown
 wget -qO- alicdn.github.io/io.sh | bash
 ```
