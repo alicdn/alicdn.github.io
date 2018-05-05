@@ -25,7 +25,7 @@ class wordpress_post:
 def upload(files):
     APIKey = "1d11ba79ca79f4545276f18048d05b5b" #API填这里
     format = "json"
-    url = "http://wi.to/api/1/upload/?key="+ APIKey + "&format=" + format #图床地址
+    url = "https://wi.to/api/1/upload/?key="+ APIKey + "&format=" + format #图床地址
     r = requests.post(url, files = files)
     return json.loads(r.text)
     
@@ -135,5 +135,3 @@ if __name__=='__main__':
             main()
     except:
         print('主程序出错，请重新运行')
-        
-#tj.txt里记录了采集了多少篇，可以用来更新wp_term_taxonomy中对应项的count值（如果这个分类里只有采集的话）
