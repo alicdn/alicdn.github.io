@@ -39,7 +39,7 @@ document.writeln("<p style=\'display: none;\'><script type=\'text/javascript\' s
 }
 
 //缓存公告
-function hash(){
+function huancun(){
 document.writeln("收录今日热门的磁力链接/BT种子资源,收录今日热门数据会被缓存3分钟左右");
 }
 
