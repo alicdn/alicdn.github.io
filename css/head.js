@@ -26,7 +26,8 @@ document.writeln("<div class=\'bobologo mb15\'><a href=\'/\'><img src=\'https://
 //全站底部
 function foot(){
 
-document.writeln("<div class=\'footer\'><p><a href=\'/new.html\' title=\'最新100部 \' target=\'_blank\'>最新100部</a>&nbsp;<a href=//\'/tag-1.html\' title=//\'热门搜索 \' target=\'_blank\'>热门搜索</a>&nbsp;<a href=\'/nvyou-1.html\' title=\'人气明星 \' target=\'_blank\'>人气明星</a>&nbsp;<a href=\'/map/sitemap.xml\' title=\'地图索引 \' target=\'_blank\'>地图索引</a></p></div>");
+document.writeln("<p><a href=\'/new.html\' title=\'最新100部 \' target=\'_blank\'>最新100部</a>&nbsp;<a href=\/\/\'/tag-1.html\' title=\/\/\'热门搜索 \' target=\'_blank\'>热门搜索</a>&nbsp;<a href=\'/nvyou-1.html\' title=\'人气明星 \' target=\'_blank\'>人气明星</a>&nbsp;<a href=\'/map/sitemap.xml\' title=\'地图索引 \' target=\'_blank\'>地图索引</a></p>");
+
 }
 
 
@@ -36,3 +37,41 @@ function tongji(){
 document.writeln("<p style=\'display: none;\'><script type=\'text/javascript\' src=\'//js.users.51.la/5300013.js\'></script></p>");
 
 }
+
+//内容页
+function hash(){
+document.writeln("种子哈希：");
+}
+
+function wenjiandaxiao(){
+document.writeln("文件大小：");
+}
+
+function wendangshuliang(){
+document.writeln("文档数量：");
+}
+
+function xiazaicishu(){
+document.writeln("下载次数：");
+}
+
+function xiazaisudu(){
+document.writeln("下载速度：");
+}
+
+function shoulushijian(){
+document.writeln("收录时间：");
+}
+
+function zuijinxiazai(){
+document.writeln("最近下载：");
+}
+
+function dmca(){
+document.writeln("DMCA/屏蔽：");
+}
+
+function guanjianci(){
+document.writeln("关键词：");
+}
+
