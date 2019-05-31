@@ -75,3 +75,18 @@ function guanjianci(){
 document.writeln("关键词：");
 }
 
+function fenlei(){
+document.writeln("分类：");
+}
+
+function daxiao(){
+document.writeln("大小：");
+}
+
+function renqi(){
+document.writeln("人气：");
+}
+
+function cailixihuan(){
+document.writeln("猜你喜欢");
+}
